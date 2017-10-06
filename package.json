@@ -1,0 +1,19 @@
+{
+    "name": "paringandhi.info",
+    "version": "1.0.0",
+    "description": "A multi-functional site that uses angular and materialize",
+    "main": "index.html",
+    "scripts": {
+        "start": "live-server --port=5555"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ParinGandhi/paringandhi.info.git"
+    },
+    "author": "Parin Gandhi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ParinGandhi/paringandhi.info/issues"
+    },
+    "homepage": "https://github.com/ParinGandhi/paringandhi.info#readme"
+}
