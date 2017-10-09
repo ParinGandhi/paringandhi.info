@@ -6,7 +6,10 @@
         .controller('MainController', function () {
 
             var vm = this;
-            vm.testMessage = "Hello world!";
+
+            $(document).ready(function () {
+                $('.parallax').parallax();
+            });
 
         });
 })();
