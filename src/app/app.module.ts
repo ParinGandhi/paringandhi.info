@@ -12,9 +12,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
+import { VideoGamesComponent } from './components/video-games/video-games.component';
+import { PhotographyComponent } from './components/photography/photography.component';
+import { WoodworkingComponent } from './components/woodworking/woodworking.component';
+import { SpaceComponent } from './components/space/space.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, VideoGamesComponent, PhotographyComponent, WoodworkingComponent, SpaceComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

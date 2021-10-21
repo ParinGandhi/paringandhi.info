@@ -23,7 +23,13 @@
             <button mat-icon-button>
               <mat-icon>tv</mat-icon>
             </button>
-            <a matLine href="...">Video Games</a>
+            <a
+              matLine
+              href="..."
+              [routerLink]="['/video-games']"
+              (click)="sidenav.toggle()"
+              >Video Games</a
+            >
           </mat-list-item>
           <mat-list-item>
             <button mat-icon-button>
