@@ -10,3 +10,24 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-sidenav-container {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 250px;
+}
